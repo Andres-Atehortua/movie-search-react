@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.46efebf3.chunk.css",
-    "main.js": "/static/js/main.7e192900.chunk.js",
-    "main.js.map": "/static/js/main.7e192900.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.9962ebdf.js",
-    "runtime-main.js.map": "/static/js/runtime-main.9962ebdf.js.map",
-    "static/css/2.de424728.chunk.css": "/static/css/2.de424728.chunk.css",
-    "static/js/2.6bfca580.chunk.js": "/static/js/2.6bfca580.chunk.js",
-    "static/js/2.6bfca580.chunk.js.map": "/static/js/2.6bfca580.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.637570d41b9b291ca39d5dabda77288b.js": "/precache-manifest.637570d41b9b291ca39d5dabda77288b.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/2.de424728.chunk.css.map": "/static/css/2.de424728.chunk.css.map",
-    "static/css/main.46efebf3.chunk.css.map": "/static/css/main.46efebf3.chunk.css.map",
-    "static/js/2.6bfca580.chunk.js.LICENSE.txt": "/static/js/2.6bfca580.chunk.js.LICENSE.txt"
+    "main.css": "/movie-search-react/static/css/main.46efebf3.chunk.css",
+    "main.js": "/movie-search-react/static/js/main.2a3aa1ff.chunk.js",
+    "main.js.map": "/movie-search-react/static/js/main.2a3aa1ff.chunk.js.map",
+    "runtime-main.js": "/movie-search-react/static/js/runtime-main.804eec8f.js",
+    "runtime-main.js.map": "/movie-search-react/static/js/runtime-main.804eec8f.js.map",
+    "static/css/2.de424728.chunk.css": "/movie-search-react/static/css/2.de424728.chunk.css",
+    "static/js/2.6bfca580.chunk.js": "/movie-search-react/static/js/2.6bfca580.chunk.js",
+    "static/js/2.6bfca580.chunk.js.map": "/movie-search-react/static/js/2.6bfca580.chunk.js.map",
+    "index.html": "/movie-search-react/index.html",
+    "precache-manifest.27a5cdd8051c9794b03d77a1f4f4bdfe.js": "/movie-search-react/precache-manifest.27a5cdd8051c9794b03d77a1f4f4bdfe.js",
+    "service-worker.js": "/movie-search-react/service-worker.js",
+    "static/css/2.de424728.chunk.css.map": "/movie-search-react/static/css/2.de424728.chunk.css.map",
+    "static/css/main.46efebf3.chunk.css.map": "/movie-search-react/static/css/main.46efebf3.chunk.css.map",
+    "static/js/2.6bfca580.chunk.js.LICENSE.txt": "/movie-search-react/static/js/2.6bfca580.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.9962ebdf.js",
+    "static/js/runtime-main.804eec8f.js",
     "static/css/2.de424728.chunk.css",
     "static/js/2.6bfca580.chunk.js",
     "static/css/main.46efebf3.chunk.css",
-    "static/js/main.7e192900.chunk.js"
+    "static/js/main.2a3aa1ff.chunk.js"
   ]
 }
