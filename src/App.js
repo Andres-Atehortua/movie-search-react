@@ -17,12 +17,12 @@ class App extends Component {
   _setResults = results => this.setState({ results })
 
   render() {
-
+    console.log(process.env.PUBLIC_URL)
     return (
       <>
         <Switch>
-          <Route exact path='https://andres-atehortua.github.io/movie-search-react/' render={() => <Index movies={this.state.results} setResults={this._setResults} />} />
-          <Route path='https://andres-atehortua.github.io/movie-search-react/detail/:id' render={props => <Detail {...props} />} />
+          <Route exact path={process.env.PUBLIC_URL + '/'} render={() => <Index movies={this.state.results} setResults={this._setResults} />} />
+          <Route exact path={process.env.PUBLIC_URL + '/detail/:id'} render={props => <Detail {...props} />} />
           <Route component={NotFound} />
         </Switch>
       </>

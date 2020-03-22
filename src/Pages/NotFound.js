@@ -5,7 +5,7 @@ const NotFound = () => (
     <div className='text-center' style={{ marginTop: '100px' }} >
         <h1>404!</h1>
         <h2>This page doesn't exist</h2>
-        <Link to='/'>Go back to search</Link>
+        <Link to={process.env.PUBLIC_URL + '/'} >Go back to search</Link>
     </div>
 )
 
