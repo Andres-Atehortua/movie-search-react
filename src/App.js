@@ -17,7 +17,6 @@ class App extends Component {
   _setResults = results => this.setState({ results })
 
   render() {
-    console.log(process.env.PUBLIC_URL)
     return (
       <>
         <Switch>
