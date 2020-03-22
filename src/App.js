@@ -21,8 +21,8 @@ class App extends Component {
     return (
       <>
         <Switch>
-          <Route exact path='/' render={() => <Index movies={this.state.results} setResults={this._setResults} />} />
-          <Route path='/detail/:id' render={props => <Detail {...props} />} />
+          <Route exact path='https://andres-atehortua.github.io/movie-search-react/' render={() => <Index movies={this.state.results} setResults={this._setResults} />} />
+          <Route path='https://andres-atehortua.github.io/movie-search-react/detail/:id' render={props => <Detail {...props} />} />
           <Route component={NotFound} />
         </Switch>
       </>
