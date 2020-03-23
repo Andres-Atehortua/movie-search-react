@@ -11,14 +11,11 @@ export default class MovieCard extends Component {
         year: PropTypes.string,
         poster: PropTypes.string
     }
-
-
-
     render() {
         const { id, title, year, poster } = this.props
         return (
             <Col lg={3} md={4} sm={6}  >
-                <Link to={process.env.PUBLIC_URL + '/detail/:id'}>
+                <Link to={`${process.env.PUBLIC_URL}/detail/${id}`}>
                     <Card style={{ marginTop: '50px' }} >
                         <Card.Img style={{ width: '100%' }} variant="top" src={poster} alt={title} />
                         <Card.Body>

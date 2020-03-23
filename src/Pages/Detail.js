@@ -31,8 +31,6 @@ export default class Detail extends Component {
 
 
     render() {
-        console.log(this.state.movie)
-
         const { Title, Released, Runtime, Genre, Director, Actors, Plot, Poster, imdbRating, Type } = this.state.movie
 
         return (
@@ -58,7 +56,7 @@ export default class Detail extends Component {
                             <p> {Actors}</p>
                             <p >{Plot}</p>
                             <div className="text-center">
-                                <Link to='/'><Button variant='info' className='text-center'>Back to search</Button></Link>
+                                <Link to={process.env.PUBLIC_URL + '/'}><Button variant='info' className='text-center'>Back to search</Button></Link>
                             </div>
                         </div>
                     </Col>

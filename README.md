@@ -1,3 +1,23 @@
+# Movie Search React
+
+_¡Hola! Este proyecto es una SPA, bastante simple, con la cual puedes buscar películas, series o videojuegos usando una API externa. Cualquier persona que quiera ofrecer feedback o que quiera manipular el proyecto para su mejora es bienvenido._
+
+## Técnologías usadas 🚀
+* Javascript
+* React JS
+* Node JS
+
+### Dependencias usadas 📋
+* Bootstrap for react
+* React Router Dom
+* PropTypes
+
+### Demo 🔧
+
+_La página esta subida en la siguiente url, * [Movie Search React](https://andres-atehortua.github.io/movie-search-react/) - 
+donde se puede interacturar con ella._ 
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
