@@ -7,10 +7,16 @@ _¡Hola! Este proyecto es una SPA, bastante simple, con la cual puedes buscar pe
 * React JS
 * Node JS
 
-### Dependencias usadas 📋
+## Dependencias usadas 📋
 * Bootstrap for react
 * React Router Dom
 * PropTypes
+
+## API usada 📈
+
+*[OMDb API](http://www.omdbapi.com/)
+_Para que la aplicación funcione correctamente es necesario solicitar una API KEY en su página web.
+Para este proyecto he decidido compartir la mía. Porfavor si alguien la quiere usar que sea para fines educativos o de desarrollo. Gracias!_
 
 ### Demo 🔧
 
